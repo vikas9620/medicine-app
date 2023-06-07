@@ -1,0 +1,42 @@
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  /* Product section styles */
+  .product-fields {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .product-fields input[type="text"],
+  .product-fields input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .product-fields button {
+
+
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .product-fields button:hover {
+    background-color: #555;
+  }
+  
